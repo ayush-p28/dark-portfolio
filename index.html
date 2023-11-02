@@ -36,42 +36,29 @@
     <nav class="bg-gray-900 fixed w-full z-20 top-0 left-0">
       <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a href="#" class="flex items-center">
-          <span class="text-glow font-bold text-3xl mr-2">A</span>
-          <!-- <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">PortFolio</span> -->
+          <span class="text-glow font-bold text-3xl mr-2">PortFolio</span>
         </a>
         <div class="flex md:order-2">
-          <!-- <button type="button"
-            class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Get
-            started</button> -->
-          <!-- <button data-collapse-toggle="navbar-sticky" type="button"
-            class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
-            aria-controls="navbar-sticky" aria-expanded="false">
-            <span class="sr-only">Open main menu</span>
-            <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
-              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                d="M1 1h15M1 7h15M1 13h15" />
-            </svg>
-          </button> -->
         </div>
         <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
           <ul
-            class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+            class="flex flex-col p-4 md:p-0 mt-4 font-medium border rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 bg-gray-800 md:bg-gray-900 border-gray-700">
             <li>
               <a href="#"
-                class="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500"
+                class="block py-2 pl-3 pr-4 rounded md:p-0 hover:text-glow text-white bg-transparent border-gray-700"
                 aria-current="page">Resume</a>
             </li>
             <li>
               <a href="#"
-                class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Skills</a>
+                class="block py-2 pl-3 pr-4 rounded md:p-0 hover:text-glow text-white bg-transparent border-gray-700">Skills</a>
             </li>
             <li>
               <a href="#"
-                class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Projects</a>
+                class="block py-2 pl-3 pr-4 rounded md:p-0 hover:text-glow text-white bg-transparent border-gray-700">Projects</a>
             </li>
             <li>
               <a href="#"
-                class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Achievements</a>
+                class="block py-2 pl-3 pr-4 rounded md:p-0 hover:text-glow text-white bg-transparent border-gray-700">Achievements</a>
             </li>
           </ul>
         </div>
@@ -541,20 +528,23 @@
           </a>
           <div class="p-5">
             <a href="#">
-              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">AWS Academy
+              <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">AWS Academy
                 Graduate</h5>
             </a>
             <p class="mb-3 font-normal text-gray-400">Issued by Amazon Web Services Training
               and Certification-</p>
-            <a href="#"
-              class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-              Read more
-              <svg class="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
-                viewBox="0 0 14 10">
-                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                  d="M1 5h12m0 0L9 1m4 4L9 9" />
-              </svg>
-            </a>
+              <a href="">
+                <button
+                  class="select-none rounded-lg bg-[#050708] hover:bg-[#050708]/90 focus:ring-4 focus:outline-none focus:ring-[#050708]/50 py-3 px-6 text-center align-middle flex items-center font-sans text-sm font-bold uppercase text-glow shadow-md transition-all hover:shadow-lg focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:shadow-none"
+                  type="button" data-ripple-light="true">
+                  Read More
+                  <svg class="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                    viewBox="0 0 14 10">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="M1 5h12m0 0L9 1m4 4L9 9" />
+                  </svg>
+                </button>
+              </a>
           </div>
         </div>
 
@@ -567,14 +557,17 @@
               <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">JAVA Basic</h5>
             </a>
             <p class="mb-3 font-normal text-gray-400">JAVA-5star, Issued By Hackerrank</p>
-            <a href="#"
-              class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-              Read more
-              <svg class="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
-                viewBox="0 0 14 10">
-                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                  d="M1 5h12m0 0L9 1m4 4L9 9" />
-              </svg>
+            <a href="">
+              <button
+                class="select-none rounded-lg bg-[#050708] hover:bg-[#050708]/90 focus:ring-4 focus:outline-none focus:ring-[#050708]/50 py-3 px-6 text-center align-middle flex items-center font-sans text-sm font-bold uppercase text-glow shadow-md transition-all hover:shadow-lg focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:shadow-none"
+                type="button" data-ripple-light="true">
+                Read More
+                <svg class="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                  viewBox="0 0 14 10">
+                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M1 5h12m0 0L9 1m4 4L9 9" />
+                </svg>
+              </button>
             </a>
           </div>
         </div>
@@ -585,17 +578,20 @@
           </a>
           <div class="p-5">
             <a href="#">
-              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">MySQL Basic</h5>
+              <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">MySQL Basic</h5>
             </a>
             <p class="mb-3 font-normal text-gray-400">Issued By Hackerrank</p>
-            <a href="#"
-              class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-              Read more
-              <svg class="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
-                viewBox="0 0 14 10">
-                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                  d="M1 5h12m0 0L9 1m4 4L9 9" />
-              </svg>
+            <a href="">
+              <button
+                class="select-none rounded-lg bg-[#050708] hover:bg-[#050708]/90 focus:ring-4 focus:outline-none focus:ring-[#050708]/50 py-3 px-6 text-center align-middle flex items-center font-sans text-sm font-bold uppercase text-glow shadow-md transition-all hover:shadow-lg focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:shadow-none"
+                type="button" data-ripple-light="true">
+                Read More
+                <svg class="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                  viewBox="0 0 14 10">
+                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M1 5h12m0 0L9 1m4 4L9 9" />
+                </svg>
+              </button>
             </a>
           </div>
         </div>
@@ -664,20 +660,20 @@
   <footer class="shadow bg-gray-800">
     <div class="w-full p-4 md:flex md:items-center md:justify-between">
       <span class="text-sm sm:text-center text-gray-400">© 2023 <a href="#"
-          class="hover:underline">Ayush Patel</a>. All Rights Reserved.
+          class="hover:underline hover:text-glow">Ayush Patel</a>. All Rights Reserved.
       </span>
       <ul class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-400 sm:mt-0">
         <li>
-          <a href="#" class="mr-4 hover:underline md:mr-6 ">Resume</a>
+          <a href="#" class="mr-4 hover:underline hover:text-glow md:mr-6 ">Resume</a>
         </li>
         <li>
-          <a href="#" class="mr-4 hover:underline md:mr-6">Projects</a>
+          <a href="#" class="mr-4 hover:underline hover:text-glow md:mr-6">Projects</a>
         </li>
         <li>
-          <a href="#" class="mr-4 hover:underline md:mr-6">Acheivements</a>
+          <a href="#" class="mr-4 hover:underline hover:text-glow md:mr-6">Acheivements</a>
         </li>
         <li>
-          <a href="#" class="hover:underline">About</a>
+          <a href="#" class="hover:underline hover:text-glow">About</a>
         </li>
       </ul>
     </div>
